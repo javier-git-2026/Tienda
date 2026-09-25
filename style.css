@@ -65,21 +65,37 @@ aside.collapsed {
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: space-between; /* Separa el logo/título del botón */
     border-bottom: 1px solid #eee;
     background-color: var(--color-light);
 }
 
 .sidebar-header img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .sidebar-header h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--color-primary);
+}
+
+/* Estilo del botón dentro del menú */
+.sidebar-header .menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: var(--color-primary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.sidebar-header .menu-toggle:hover {
+    background-color: rgba(141, 91, 76, 0.1);
 }
 
 .sidebar-menu {
