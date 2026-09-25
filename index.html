@@ -8,34 +8,34 @@
 </head>
 <body>
 
-      <!-- Sidebar Colapsable -->
-<aside id="sidebar">
-    <div class="sidebar-header">
-        <div style="display: flex; align-items: center; gap: 10px;">
-            <img src="promo1.jpg" alt="Logo">
-            <h2>Tu Forrajería</h2>
+    <!-- Botón flotante/fijo para abrir/cerrar el menú cuando está colapsado -->
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+
+    <!-- Sidebar Colapsable -->
+    <aside id="sidebar">
+        <div class="sidebar-header">
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="promo1.jpg" alt="Logo">
+                <h2>Tu Forrajería</h2>
+            </div>
         </div>
-        <!-- Botón de colapsar ahora dentro del menú -->
-        <button class="menu-toggle" id="menuToggle">&#9776;</button>
-    </div>
-    <ul class="sidebar-menu">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#promociones">Promociones</a></li>
-        <li><a href="#productos">Productos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
-</aside>
-    
+        <ul class="sidebar-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </aside>
+
     <!-- Main Wrapper -->
     <div class="main-wrapper" id="mainWrapper">
         <!-- Top Bar -->
         <header id="inicio">
-            <button class="menu-toggle" id="menuToggle">&#9776;</button>
             <div class="brand-title">Tu Forrajería</div>
             <div></div>
         </header>
 
-        <!-- Carrusel de Promociones -->
+        <!-- Carrusel de Promociones (Reducido 30%) -->
         <div class="carousel-container" id="promociones">
             <div class="carousel-track" id="carouselTrack">
                 <div class="carousel-slide"><img src="promo1.jpg" alt="Promo 1"></div>
