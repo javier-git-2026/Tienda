@@ -1,4 +1,4 @@
-// Toggle Sidebar Colapsable desde el botón interno
+// Toggle Sidebar Colapsable (El botón ahora permanece siempre visible en pantalla)
 const sidebar = document.getElementById('sidebar');
 const mainWrapper = document.getElementById('mainWrapper');
 const menuToggle = document.getElementById('menuToggle');
@@ -12,7 +12,7 @@ menuToggle.addEventListener('click', () => {
     }
 });
 
-// Carrusel Funcionalidad (Cambio cada 2 segundos + botones manuales)
+// Carrusel Funcionalidad (Cambio automático cada 2 segundos + botones manuales)
 const track = document.getElementById('carouselTrack');
 const slides = Array.from(track.children);
 const nextBtn = document.getElementById('nextBtn');
