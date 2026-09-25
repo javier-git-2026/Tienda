@@ -1,4 +1,4 @@
-// Toggle Sidebar Colapsable
+// Toggle Sidebar Colapsable desde el botón interno
 const sidebar = document.getElementById('sidebar');
 const mainWrapper = document.getElementById('mainWrapper');
 const menuToggle = document.getElementById('menuToggle');
