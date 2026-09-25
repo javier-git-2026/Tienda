@@ -8,20 +8,24 @@
 </head>
 <body>
 
-    <!-- Sidebar Colapsable -->
-    <aside id="sidebar">
-        <div class="sidebar-header">
+      <!-- Sidebar Colapsable -->
+<aside id="sidebar">
+    <div class="sidebar-header">
+        <div style="display: flex; align-items: center; gap: 10px;">
             <img src="promo1.jpg" alt="Logo">
             <h2>Tu Forrajería</h2>
         </div>
-        <ul class="sidebar-menu">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#promociones">Promociones</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </aside>
-
+        <!-- Botón de colapsar ahora dentro del menú -->
+        <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    </div>
+    <ul class="sidebar-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</aside>
+    
     <!-- Main Wrapper -->
     <div class="main-wrapper" id="mainWrapper">
         <!-- Top Bar -->
