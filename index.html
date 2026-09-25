@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Forrajería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar Colapsable -->
+    <aside id="sidebar">
+        <div class="sidebar-header">
+            <img src="promo1.jpg" alt="Logo">
+            <h2>Tu Forrajería</h2>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper" id="mainWrapper">
+        <!-- Top Bar -->
+        <header id="inicio">
+            <button class="menu-toggle" id="menuToggle">&#9776;</button>
+            <div class="brand-title">Tu Forrajería</div>
+            <div></div>
+        </header>
+
+        <!-- Carrusel de Promociones -->
+        <div class="carousel-container" id="promociones">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide"><img src="promo1.jpg" alt="Promo 1"></div>
+                <div class="carousel-slide"><img src="promo2.jpg" alt="Promo 2"></div>
+                <div class="carousel-slide"><img src="promo3.jpg" alt="Promo 3"></div>
+                <div class="carousel-slide"><img src="promo4.jpg" alt="Promo 4"></div>
+                <div class="carousel-slide"><img src="promo5.jpg" alt="Promo 5"></div>
+            </div>
+            <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+            <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+        </div>
+
+        <!-- Contenido Principal: Cuadrícula de 10 productos -->
+        <main class="container" id="productos">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto1.jpg" alt="Semillas de alfalfa">
+                    </div>
+                    <div class="product-info">
+                        <h3>Semillas de Alfalfa</h3>
+                        <p>Alta pureza y excelente poder germinativo para pasturas óptimas.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$4.500</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto2.jpg" alt="Fardo de pasto">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fardo Seleccionado</h3>
+                        <p>Pasto de primera calidad, ideal para equinos y bovinos.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$3.200</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto3.jpg" alt="Pellet para calefacción">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pellet de Madera</h3>
+                        <p>Alto poder calorífico, bajo contenido de humedad y cenizas.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$7.800</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto4.jpg" alt="Leña encina">
+                    </div>
+                    <div class="product-info">
+                        <h3>Leña Dura</h3>
+                        <p>Leña estacionada de excelente rendimiento para estufas y hogares.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$6.000</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto5.jpg" alt="Alimento balanceado perros">
+                    </div>
+                    <div class="product-info">
+                        <h3>Alimento Premium Perros</h3>
+                        <p>Nutrición completa y balanceada para perros adultos de todas las razas.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$18.500</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto6.jpg" alt="Alimento balanceado gatos">
+                    </div>
+                    <div class="product-info">
+                        <h3>Alimento Gatos Adultos</h3>
+                        <p>Fórmula especial para el cuidado del tracto urinario y pelaje brillante.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$16.200</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 7 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto7.jpg" alt="Maíz entero">
+                    </div>
+                    <div class="product-info">
+                        <h3>Maíz Grano Entero</h3>
+                        <p>Energía pura para aves y animales de granja seleccionados.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$5.100</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 8 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto8.jpg" alt="Avena forrajera">
+                    </div>
+                    <div class="product-info">
+                        <h3>Avena Forrajera</h3>
+                        <p>Ideal para suplementación nutricional en equinos y ganado menor.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$4.800</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 9 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto9.jpg" alt="Núcleo mineral">
+                    </div>
+                    <div class="product-info">
+                        <h3>Núcleo Mineral</h3>
+                        <p>Suplemento vitamínico mineral para optimizar la dieta animal.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$9.400</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+
+                <!-- Producto 10 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="producto10.jpg" alt="Alfalfa en cubos">
+                    </div>
+                    <div class="product-info">
+                        <h3>Alfalfa en Cubos</h3>
+                        <p>Forraje compactado de fácil almacenamiento y alto valor nutritivo.</p>
+                    </div>
+                    <div class="product-footer">
+                        <span class="product-price">$8.900</span>
+                        <button class="btn-buy">Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Pie de página -->
+        <footer id="contacto">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><strong>Dirección:</strong> Altos de la V - Chacra 26</p>
+                    <p><strong>Horario:</strong> De 8hs a 18hs</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </div>
+                <div>
+                    <a href="https://wa.me/5493413112233" class="whatsapp-link" target="_blank">Consultar por WhatsApp</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
